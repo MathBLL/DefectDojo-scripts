@@ -2,7 +2,7 @@ const faker = require('faker');
 const axios = require('axios');
 
 const apiUrl = 'http://localhost:8080/api/v2/findings/';
-const authToken = '60ed49da4556792646d6e13dec6144f427e432e9';
+const authToken = '<<<APIKey here>>>';
 
 const tags = ["intranet", "exposure", "exploitPub", "exploitable"];
 const classification = ["very high", "high", "medium", "low", "very low", "none"];
